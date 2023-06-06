@@ -15,7 +15,7 @@ let voices = [];
 
 const getVoices = () => {
     voices = synth.getVoices();
-    
+
     //Loop through voices
     voices.forEach(voice => {
         //Create option Element
