@@ -42,8 +42,7 @@ const speak = () => {
     }
     if(textInput.value !== ''){
         //Add background
-        body.style.background = '#000 url(../Type-N-Speak
-        /img/wave.gif)';
+        body.style.background = '#000 url(../img/wave.gif)';
         body.style.backgroundRepeat = 'repeat-x';
         body.style.backgroundSize = '100% 100%';
         //get speak text
